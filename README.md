@@ -3,7 +3,7 @@
 ## Idée
 
 ### Concept
-Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de faire de la musique en groupe. Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produisent des sons de manière indépendante, permettant à 5 personnes de jouer ensemble. Il y a une projection sur le mur faisant face les 5 cubes et celle-ci sera aussi controllé par les cubes. Pour chaque forme,  il y aurait 2 TOF qui seront placé un à l'oposé de l'autre, à l'intérieur du cube ( les faces auront un trou pour que le TOF puisse détecter les mouvements), pour pouvoir détecter la distance de chaques main. 
+Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de s'amuser et de faire de la musique en groupe. Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à 5 personnes de jouer ensemble. Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. Pour chaque forme,  il y aurait 2 TOF qui seront placé un à l'oposé de l'autre, à l'intérieur du cube ( les faces auront un trou pour que le TOF puisse détecter les mouvements), pour pouvoir détecter la distance de chaques main. La main droite controlerait le volume et la main gauche controlerait un effet audio ( ex: phaser, distortion, etc) affectant la boucle audio du cube respectif. 
 
 ## Références et inspirations
 
@@ -60,6 +60,8 @@ graph TD;
     G{Utilise le clavier midi}-->H{La personne ajoute des effets/change visuel};
     H{La personne ajoute des effets/change visuel}--> I{la personne est satisfaite} & J{la personne est impressionner} & K{La personne expérimente plus} & L{La personne quitte};
 ```
+
+
 
 ## Scénarimage / Simulation
 
@@ -145,3 +147,4 @@ Le réseau de communication serait majoritairement midi car celle-ci est faite p
 ## Réferences: 
 
 https://village-numerique.mutek.org/fr/installations/isochrone-par-manuel-chantre
+
