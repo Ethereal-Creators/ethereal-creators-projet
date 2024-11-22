@@ -3,7 +3,7 @@
 ## Idée
 
 ### Concept
-Créer une sorte de concert personnel mais accessible au public. Celle-ci aurait des petites sculptures qui seront projeté par des projecteurs (3d Mapping) ainsi qu'un écran au centre. Ces projecteurs projecteront des visuels, l'écran projectera un visuel différent (peut être changer, différent options) et intéragiront avec l'audio. L'audio provient des instruments différents proposés (Guitare, Piano et Drum). Puis, un controlleur midi sera au centre pour mettre plus d'effets synth et de changer de visuelles, et des indicateurs lumières sur les côtés guideront et démontreront visuellement l'effet mis (s'il y a un effet qui marche, les lumières l'indiqueront).
+Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de faire de la musique en groupe. Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produisent des sons de manière indépendante, permettant à 5 personnes de jouer ensemble. Il y a une projection sur le mur faisant face les 5 cubes et celle-ci sera aussi controllé par les cubes. Pour chaque forme,  il y aurait 2 TOF qui seront placé un à l'oposé de l'autre, à l'intérieur du cube ( les faces auront un trou pour que le TOF puisse détecter les mouvements), pour pouvoir détecter la distance de chaques main. 
 
 ## Références et inspirations
 
