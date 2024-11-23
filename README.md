@@ -5,33 +5,26 @@
 ### Concept
 Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de s'amuser et de faire de la musique en groupe. Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à 5 personnes de jouer ensemble. Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. Pour chaque forme,  il y aurait 2 TOF qui seront placé un à l'oposé de l'autre, à l'intérieur du cube ( les faces auront un trou pour que le TOF puisse détecter les mouvements), pour pouvoir détecter la distance de chaques main. La main droite controlerait le volume et la main gauche controlerait un effet audio ( ex: phaser, distortion, etc) affectant la boucle audio du cube respectif. 
 
+![Plan_Projet_Final](https://github.com/user-attachments/assets/27dec7d9-5cf1-4566-b7f0-308f94037dca)
+
 ## Références et inspirations
 
 ### Planche d'ambiance visuelles
 ![plancheVisuelle](medias/assets/images/MoodBoard%20Visuel.png)
 
-#### Pour les sculptures
+### Pour les cubes
 
-https://www.temasarte.com/en/Angeles-Anglada-Sculpture-Allegory-to-the-music-aaanglada_alegoriaalamusica.html
+
+
 
 ### Planche d'ambiance sonores 
 
-Pour l'ambiance générale, je cherche quelque chose qui va de normal (instruments normal) vers des effets synth, etc. Le choix d'un son "synth" ou "synthwave" serait car le son est plutot cinématique et me marque beaucoup.
+Le projet a une ambiance qui joue en boucle composé de basse synthé et de nappes de synthé.
 
-https://youtu.be/iJjRTL1xcKI?t=212
-
-https://youtu.be/iJjRTL1xcKI?t=138
-
-https://youtu.be/-ZuS0p2qRYo?t=55
+[ambiance de fond](https://www.youtube.com/watch?v=L2eq-I0jY7Q)
 
 ## Références artistique
-Donc l’esthétique va de quelque chose plus réaliste/organique (sans effets) vers quelque chose de plus « synth ». Le visuel va renforcer cela, lorsqu’on va vers le synth, les visuels vont être plus abstrait. Les grosses références pour le projets sont les concerts. Certains de ces concerts on des visuels attrayant ce qui est une grosse qualité que je veux pour ceci.
 
-https://youtu.be/VB7JBN37nlY?t=66
-
-https://youtu.be/l1ZlwbHuhrU?t=58
-
-https://youtu.be/lrJ2x7oOE5w?si=ycnQVbG8hp6aMAc-
 
 ## Scénario Interactif
 
