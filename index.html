@@ -14,8 +14,79 @@
     <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
     <!-- Custom Styles -->
     <style>
+         /* Root theme color adjustment */
         :root {
-            --theme-hue:2;
+            --theme-hue: 2; /* Light red theme */
+            --background-color: #470415;
+            --text-color: #E0E0E0;
+            --link-color: #1E90FF;
+            --sidebar-background: #3d0707;
+            --sidebar-text-color: #B0B0B0;
+        }
+
+        /* Apply the custom theme for dark mode */
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: 'Arial', sans-serif;
+        }
+
+        a {
+            color: var(--link-color);
+            border-radius: 5px;
+            transition: ease-in 0.2s;
+        }
+
+        a:hover {
+            
+            color: #ff6347;
+        }
+
+        .sidebar {
+            background-color: var(--sidebar-background);
+            color: var(--sidebar-text-color);
+        }
+
+        .sidebar a {
+            color: var(--sidebar-text-color);
+        }
+
+        .sidebar a:hover {
+            background-color: #ff8c8c;
+            color: #ffffff;
+        }
+
+        pre, code {
+            background-color: var(--code-background);
+            color: var(--code-text-color);
+            border-radius: 4px;
+        }
+
+        pre {
+            padding: 10px;
+        }
+
+        /* Lightbox Styles */
+        .docsify-lightbox img {
+            max-height: 80vh;
+        }
+
+        /* Custom scrollbar for dark theme */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #333;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
         }
     </style>
 
