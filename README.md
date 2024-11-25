@@ -26,9 +26,12 @@ Le projet a une ambiance qui joue en boucle composé de basse synthé et de napp
 
 [Inspiration projection](https://youtu.be/ATLhkFcQZN0)
 
-## Scénario Interactif (ancienne version)
+## Scénario Interactif (nouvelle version)
 
+### Interactif
 ![shéma Interactif ](https://github.com/user-attachments/assets/51174918-a9f2-479c-801e-1a08d495505c)
+
+## Scénario Interactif (ancienne version)
 
 ### Interactif
 ```mermaid
