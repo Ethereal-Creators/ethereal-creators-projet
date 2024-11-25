@@ -12,6 +12,8 @@ Créer un monde abstrait combinant la musique et la technologie ayant pour but d
 ### Planche d'ambiance visuelles
 ![plancheVisuelle](medias/assets/images/MoodBoard%20Visuel.png)
 
+![moodboard cube](medias/assets/images/moodboard_cube.jpg)
+
 ### Pour les cubes
 
 
