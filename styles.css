@@ -1,6 +1,7 @@
 :root {
     --theme-hue: 330; /* Default hue value, adjust this to change the color */
     --theme-brightness: 70%; /* Default brightness value, can be adjusted */
+
     --theme-color: hsl(var(--theme-hue), 100%, var(--theme-brightness)); /* Use brightness variable */
     --theme-color-hover: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) + 5%)); /* Slightly brighter on hover */
     --theme-background: #ffffff;
@@ -10,7 +11,7 @@
     --theme-highlight-text: #ffffff;
     --theme-link: hsl(var(--theme-hue), 100%, var(--theme-brightness));
     --theme-link-hover: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) + 5%)); /* Hover brightness */
-    --theme-bold-text: #2266aa;
+    --theme-bold-text: #2c3e50;
     --code-background: #f8f8f8;
     --code-text: #525252;
     --code-syntax: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) - 20%)); /* Darker for syntax highlighting */
