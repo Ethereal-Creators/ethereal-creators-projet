@@ -1,0 +1,175 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+/* Floating Action Button (FAB) Styling */
+.fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fab:hover {
+    background-color: #0056b3;
+}
+
+/* Theme Toggle Button Styling */
+#themeToggleButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Snackbar styling for notifications */
+.snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.snackbar.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+body.dark-mode pre,
+body.dark-mode code {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+body.dark-mode table {
+    background-color: #121212;
+}
+
+body.dark-mode th {
+    background-color: #007BFF;
+    color: white;
+}
+
+body.dark-mode td {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+
+/* Link Hover Effect */
+a:hover {
+    text-decoration: underline;
+    color: #ff6347; /* Slightly red color */
+}
+
+/* Smooth Scroll Effect for Internal Links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Additional Tweaks for User Experience */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Button Styling for Dark Mode Toggle */
+#themeToggleButton {
+    background-color: transparent;
+    color: #f0f0f0;
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Dark Mode Scrollbar */
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: #bb86fc;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #aa77ff;
+}
+
+/* Custom Code Block Styling */
+pre, code {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body.dark-mode pre,
+body.dark-mode code {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
