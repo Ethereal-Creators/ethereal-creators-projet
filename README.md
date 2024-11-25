@@ -18,7 +18,7 @@ Créer un monde abstrait combinant la musique et la technologie ayant pour but d
 
 ### Planche d'ambiance sonores 
 
-Le projet a une ambiance qui joue en boucle composé de basse synthé et de nappes de synthé.
+L’ambiance sonore du projet est composée d’une boucle de basses et de nappes de synthé qui créent une atmosphère mystérieuse. Cette musique ajoute une tension constante et plonge le joueur dans l’univers du jeu.
 
 [ambiance de fond](https://www.youtube.com/watch?v=L2eq-I0jY7Q)
 
