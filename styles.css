@@ -1,7 +1,6 @@
 :root {
     --theme-hue: 330; /* Default hue value, adjust this to change the color */
     --theme-brightness: 70%; /* Default brightness value, can be adjusted */
-
     --theme-color: hsl(var(--theme-hue), 100%, var(--theme-brightness)); /* Use brightness variable */
     --theme-color-hover: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) + 5%)); /* Slightly brighter on hover */
     --theme-background: #ffffff;
@@ -27,6 +26,7 @@
       --code-syntax: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) - 20%));
       --sidebar-background: #2e2e2e;
       --sidebar-text: #cccccc;
+      
       .markdown-section tr:nth-child(even) {
         background-color: #3d3d3d; /* Darken the background for even rows */
       }

@@ -4,25 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="description" content="Modèle docsify pour publication classique">
     <link rel="stylesheet" href="styles.css">
     <title>Instrumentum</title>
 
-    
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"/>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
     <!-- FontAwesome for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
-             background-color: #021c33;  /* Light blue background */
-             color: #fff9f9;                /* Text color */
-}
+            background-color: #021c33;
+            /* Light blue background */
+            color: #fff9f9;
+            /* Text color */
+        }
     </style>
 </head>
 
 <body>
-    <div id="app"></div>
+    <nav>
+        <a href="#/">FR</a>
+        <a href="#/">EN</a>
+      </nav>
+      <div id="app"></div>
 
     <!-- Floating Action Button (FAB) -->
     <button class="fab" id="fabButton" title="Go to Top">↑</button>
@@ -32,102 +39,75 @@
             name: 'Instrumentum',
             repo: 'https://github.com/Ethereal-Creators/ethereal-creators-projet',
             auto2top: true,
+            themeColor: '#3F51B5',
+            topMargin: 90,
             loadSidebar: false,
-            subMaxLevel: 4,
+            autoHeader: true,
+            nativeEmoji: true,
+            executeScript: true,
+            fallbackLanguages: ['fr', 'en'],
+            subMaxLevel: 3,
+            search: {
+                maxAge: 86400000, // Cache search results for 1 day
+                placeholder: 'Search...',
+                noData: 'No results found',
+            },
             copyCode: {
                 buttonText: '📄',
                 errorText: '⚠️',
                 successText: '✅ ',
             },
+            head: [
+                ['link', {
+                    rel: 'stylesheet',
+                    href: 'https://your-cdn.com/custom-style.css'
+                }]
+            ],
+            theme: 'dark', // Enable dark mode
             plugins: [
                 function (hook, vm) {
                     hook.doneEach(() => {
                         // Lightbox plugin for images
-                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(module => {
-                            const images = document.querySelectorAll('img');
-                            const lightbox = new module.default();
-                            lightbox.initialize(images);
-                        }).catch(err => console.error('Failed to load Lightbox plugin', err));
+                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(
+                            module => {
+                                const images = document.querySelectorAll('img');
+                                const lightbox = new module.default();
+                                lightbox.initialize(images);
+                            }).catch(err => console.error('Failed to load Lightbox plugin', err));
                     });
                 },
                 function (hook, vm) {
                     hook.doneEach(() => {
                         // WaveSurfer plugin for audio playback
-                        import('https://gllmar.github.io/docsify-wavesurfer-plugin/docsify-wavesurfer-plugin.js').then(module => {
-                            module.initWaveSurfer();
-                        }).catch(err => console.error('Failed to load WaveSurfer plugin', err));
+                        import(
+                                'https://gllmar.github.io/docsify-wavesurfer-plugin/docsify-wavesurfer-plugin.js')
+                            .then(module => {
+                                module.initWaveSurfer();
+                            }).catch(err => console.error('Failed to load WaveSurfer plugin', err));
                     });
                 },
-                // Add more custom plugins or hook logic here if needed
-            ]
-        };
-    
-        // Floating Action Button (FAB) scroll to top functionality
-        const fabButton = document.getElementById('fabButton');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 200) {
-                fabButton.style.display = 'block'; // Show FAB button when scroll is > 200px
-            } else {
-                fabButton.style.display = 'none'; // Hide FAB button when scroll is < 200px
-            }
-        });
-    
-        fabButton.addEventListener('click', () => {
-            // Smooth scroll to the top
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-    
-        // Theme toggle logic (Light/Dark Mode)
-        const themeToggleButton = document.getElementById('themeToggleButton');
-        const body = document.body;
-    
-        // Check localStorage for theme preference
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        if (savedTheme === 'dark') {
-            body.classList.add('dark-mode');
-        }
-    
-        themeToggleButton.addEventListener('click', () => {
-            if (body.classList.contains('dark-mode')) {
-                body.classList.remove('dark-mode');
-                localStorage.setItem('theme', 'light'); // Save preference
-                themeToggleButton.innerHTML = '🌙'; // Change to moon icon for light mode
-            } else {
-                body.classList.add('dark-mode');
-                localStorage.setItem('theme', 'dark'); // Save preference
-                themeToggleButton.innerHTML = '☀️'; // Change to sun icon for dark mode
-            }
-        });
-    
-        // Add Smooth Scroll Effect for Internal Links
-        document.querySelectorAll('a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                if (this.hash !== "") {
-                    e.preventDefault();
-                    const targetElement = document.querySelector(this.hash);
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 20, // Offset for header space
-                        behavior: "smooth"
+                function (hook, vm) {
+                    hook.doneEach(() => {
+                        const button = document.createElement('button');
+                        button.textContent = '↑';
+                        button.classList.add('back-to-top');
+                        button.onclick = () => window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        });
+                        document.body.appendChild(button);
+
+                        window.addEventListener('scroll', () => {
+                            if (window.scrollY > 300) {
+                                button.style.display = 'block';
+                            } else {
+                                button.style.display = 'none';
+                            }
+                        });
                     });
-                }
-            });
-        });
-    
-        // Show Snackbar Notification on page load
-        window.addEventListener('load', () => {
-            const snackbar = document.createElement('div');
-            snackbar.className = 'snackbar';
-            snackbar.innerHTML = 'Welcome to Instrumentum Documentation!';
-            document.body.appendChild(snackbar);
-    
-            setTimeout(() => {
-                snackbar.classList.add('show');
-            }, 100);
-    
-            setTimeout(() => {
-                snackbar.classList.remove('show');
-            }, 4000);
-        });
+                },
+            ],
+        };
     </script>
     <!-- Required Docsify Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -139,12 +119,16 @@
         window.mermaid = mermaid;
     </script>
     <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-    <script src="https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js"></script>
-    <script src="https://gllmar.github.io/docsify-alert/docsify-alerts.js"></script>
-    <script src="https://gllmar.github.io/docsify-repo-toolbar/docsify-repo-toolbar.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+    
+    <!-- Required -->
+   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+    <!-- Recommended -->
+   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    
 </body>
 
 </html>
