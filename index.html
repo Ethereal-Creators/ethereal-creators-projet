@@ -4,44 +4,137 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="description" content="Modèle docsify pour publication classique">
     <title>Instrumentum</title>
 
-  
     <link rel="stylesheet" href="https://gllmar.github.io/docsify-simple-style/docsify-simple-style.css">
     <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
+
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <!-- Custom Styles -->
     <style>
         :root {
-            --theme-hue:2;
+            --background-color-light: #9c9898; /* Light gray background */
+            --text-color-light: #333333;
+            --link-color-light: #1e90ff;
+            --code-background-light: #8b8787;
+            --code-text-light: #333;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Set the light mode as the default theme */
+        body {
+            background-color: var(--background-color-light);
+            color: var(--text-color-light);
+        }
+
+        a {
+            color: var(--link-color-light);
+        }
+
+        pre, code {
+            background-color: var(--code-background-light);
+            color: var(--code-text-light);
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: var(--background-color-light);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: var(--link-color-light);
+            color: rgb(28, 26, 196);
+        }
+
+        /* Floating action button (FAB) */
+        .fab {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .fab:hover {
+            background-color: #0056b3;
+        }
+
+        /* Sidebar tweaks */
+        #sidebar {
+            background-color: var(--background-color-light);
+            color: var(--text-color-light);
+        }
+
+        #sidebar a {
+            color: var(--link-color-light);
+        }
+
+        #sidebar a:hover {
+            color: #007BFF;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #007BFF;
+            border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0056b3;
         }
     </style>
-
-
 </head>
 
 <body>
     <div id="app"></div>
 
+    <!-- Floating Action Button (FAB) -->
+    <button class="fab" id="fabButton" title="Go to Top">↑</button>
+
     <script>
         window.$docsify = {
             name: 'Instrumentum',
             repo: 'https://github.com/Ethereal-Creators/ethereal-creators-projet',
-    
             auto2top: true,
-            loadSidebar: false,    // Enable sidebar loading
-            subMaxLevel: 4,       // Adjust the level to include in TOC
+            loadSidebar: false,
+            subMaxLevel: 4,
             copyCode: {
                 buttonText: '📄',
                 errorText: '⚠️',
                 successText: '✅ ',
             },
             plugins: [
-                // Lightbox plugin
                 function (hook, vm) {
                     hook.doneEach(() => {
+                        // Lightbox plugin for images
                         import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(module => {
                             const images = document.querySelectorAll('img');
                             const lightbox = new module.default();
@@ -49,20 +142,86 @@
                         }).catch(err => console.error('Failed to load Lightbox plugin', err));
                     });
                 },
-                // WaveSurfer plugin
                 function (hook, vm) {
                     hook.doneEach(() => {
+                        // WaveSurfer plugin for audio playback
                         import('https://gllmar.github.io/docsify-wavesurfer-plugin/docsify-wavesurfer-plugin.js').then(module => {
                             module.initWaveSurfer();
                         }).catch(err => console.error('Failed to load WaveSurfer plugin', err));
                     });
-                }
+                },
+                // Add more custom plugins or hook logic here if needed
             ]
         };
-    </script>
     
-
-    <!-- Required -->
+        // Floating Action Button (FAB) scroll to top functionality
+        const fabButton = document.getElementById('fabButton');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                fabButton.style.display = 'block'; // Show FAB button when scroll is > 200px
+            } else {
+                fabButton.style.display = 'none'; // Hide FAB button when scroll is < 200px
+            }
+        });
+    
+        fabButton.addEventListener('click', () => {
+            // Smooth scroll to the top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    
+        // Theme toggle logic (Light/Dark Mode)
+        const themeToggleButton = document.getElementById('themeToggleButton');
+        const body = document.body;
+    
+        // Check localStorage for theme preference
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        if (savedTheme === 'dark') {
+            body.classList.add('dark-mode');
+        }
+    
+        themeToggleButton.addEventListener('click', () => {
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light'); // Save preference
+                themeToggleButton.innerHTML = '🌙'; // Change to moon icon for light mode
+            } else {
+                body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark'); // Save preference
+                themeToggleButton.innerHTML = '☀️'; // Change to sun icon for dark mode
+            }
+        });
+    
+        // Add Smooth Scroll Effect for Internal Links
+        document.querySelectorAll('a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (this.hash !== "") {
+                    e.preventDefault();
+                    const targetElement = document.querySelector(this.hash);
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 20, // Offset for header space
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    
+        // Show Snackbar Notification on page load
+        window.addEventListener('load', () => {
+            const snackbar = document.createElement('div');
+            snackbar.className = 'snackbar';
+            snackbar.innerHTML = 'Welcome to Instrumentum Documentation!';
+            document.body.appendChild(snackbar);
+    
+            setTimeout(() => {
+                snackbar.classList.add('show');
+            }, 100);
+    
+            setTimeout(() => {
+                snackbar.classList.remove('show');
+            }, 4000);
+        });
+    </script>
+    <!-- Required Docsify Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
     <!-- Import Mermaid -->
