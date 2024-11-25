@@ -27,8 +27,8 @@ Le projet a une ambiance qui joue en boucle composé de basse synthé et de napp
 
 ## Références artistique
 
-<!-- 
-## Scénario Interactif
+
+## Scénario Interactif (ancienne version)
 
 ### Interactif
 ```mermaid
