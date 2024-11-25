@@ -27,7 +27,7 @@ Le projet a une ambiance qui joue en boucle composé de basse synthé et de napp
 
 ## Références artistique
 
-<!--
+<!-- 
 ## Scénario Interactif
 
 ### Interactif
@@ -57,6 +57,7 @@ graph TD;
 ```
 
 
+<!--
 
 
 ## Scénarimage / Simulation
