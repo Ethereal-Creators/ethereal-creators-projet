@@ -12,12 +12,9 @@ Créer un monde abstrait combinant la musique et la technologie ayant pour but d
 ### Planche d'ambiance visuelles
 ![plancheVisuelle](medias/assets/images/MoodBoard%20Visuel.png)
 
-![moodboard cube](medias/assets/images/moodboard_cube.jpg)
-
 ### Pour les cubes
 
-
-
+![moodboard cube](medias/assets/images/moodboard_cube.jpg)
 
 ### Planche d'ambiance sonores 
 
@@ -27,6 +24,7 @@ Le projet a une ambiance qui joue en boucle composé de basse synthé et de napp
 
 ## Références artistique
 
+[Inspiration projection](https://youtu.be/ATLhkFcQZN0)
 
 ## Scénario Interactif (ancienne version)
 
