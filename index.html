@@ -28,8 +28,8 @@
     <nav>
         <a href="#/">FR</a>
         <a href="#/">EN</a>
-      </nav>
-      <div id="app"></div>
+    </nav>
+    <div id="app"></div>
 
     <!-- Floating Action Button (FAB) -->
     <button class="fab" id="fabButton" title="Go to Top">↑</button>
@@ -47,15 +47,14 @@
             executeScript: true,
             fallbackLanguages: ['fr', 'en'],
             subMaxLevel: 3,
+            themeable: {
+                readyTransition: true, // default
+                responsiveTables: true // default
+            },
             search: {
                 maxAge: 86400000, // Cache search results for 1 day
                 placeholder: 'Search...',
                 noData: 'No results found',
-            },
-            copyCode: {
-                buttonText: '📄',
-                errorText: '⚠️',
-                successText: '✅ ',
             },
             head: [
                 ['link', {
@@ -76,36 +75,8 @@
                             }).catch(err => console.error('Failed to load Lightbox plugin', err));
                     });
                 },
-                function (hook, vm) {
-                    hook.doneEach(() => {
-                        // WaveSurfer plugin for audio playback
-                        import(
-                                'https://gllmar.github.io/docsify-wavesurfer-plugin/docsify-wavesurfer-plugin.js')
-                            .then(module => {
-                                module.initWaveSurfer();
-                            }).catch(err => console.error('Failed to load WaveSurfer plugin', err));
-                    });
-                },
-                function (hook, vm) {
-                    hook.doneEach(() => {
-                        const button = document.createElement('button');
-                        button.textContent = '↑';
-                        button.classList.add('back-to-top');
-                        button.onclick = () => window.scrollTo({
-                            top: 0,
-                            behavior: 'smooth'
-                        });
-                        document.body.appendChild(button);
-
-                        window.addEventListener('scroll', () => {
-                            if (window.scrollY > 300) {
-                                button.style.display = 'block';
-                            } else {
-                                button.style.display = 'none';
-                            }
-                        });
-                    });
-                },
+ 
+               
             ],
         };
     </script>
@@ -121,14 +92,15 @@
     <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
-    
+
     <!-- Required -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
     <!-- Recommended -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
 </body>
 
 </html>
