@@ -29,7 +29,7 @@ Le projet a une ambiance qui joue en boucle composé de basse synthé et de napp
 ## Scénario Interactif (nouvelle version)
 
 ### Interactif
-![shéma Interactif ](medias/assets/images/shema_interactif_new.png)
+![shéma Interactif ](medias/assets/images/shema_Interactif_new.png)
 
 ## Scénario Interactif (ancienne version)
 
