@@ -14,17 +14,20 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
     <!-- FontAwesome for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
     <style>
+
         body {
             background-color: #021c33;
             /* Light blue background */
             color: #fff9f9;
             /* Text color */
-        }
-    </style>
+            }
+            </style>
 </head>
 
 <body>
+    <script src="docsify.js"></script>
     <nav>
         <a href="#/">FR</a>
         <a href="#/">EN</a>
@@ -33,53 +36,6 @@
 
     <!-- Floating Action Button (FAB) -->
     <button class="fab" id="fabButton" title="Go to Top">↑</button>
-
-    <script>
-        window.$docsify = {
-            name: 'Instrumentum',
-            repo: 'https://github.com/Ethereal-Creators/ethereal-creators-projet',
-            auto2top: true,
-            themeColor: '#3F51B5',
-            topMargin: 90,
-            loadSidebar: false,
-            autoHeader: true,
-            nativeEmoji: true,
-            executeScript: true,
-            fallbackLanguages: ['fr', 'en'],
-            subMaxLevel: 3,
-            themeable: {
-                readyTransition: true, // default
-                responsiveTables: true // default
-            },
-            search: {
-                maxAge: 86400000, // Cache search results for 1 day
-                placeholder: 'Search...',
-                noData: 'No results found',
-            },
-            head: [
-                ['link', {
-                    rel: 'stylesheet',
-                    href: 'https://your-cdn.com/custom-style.css'
-                }]
-            ],
-            theme: 'dark', // Enable dark mode
-            plugins: [
-                function (hook, vm) {
-                    hook.doneEach(() => {
-                        // Lightbox plugin for images
-                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(
-                            module => {
-                                const images = document.querySelectorAll('img');
-                                const lightbox = new module.default();
-                                lightbox.initialize(images);
-                            }).catch(err => console.error('Failed to load Lightbox plugin', err));
-                    });
-                },
- 
-               
-            ],
-        };
-    </script>
     <!-- Required Docsify Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
@@ -100,7 +56,6 @@
     <!-- Recommended -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-
 </body>
 
 </html>
