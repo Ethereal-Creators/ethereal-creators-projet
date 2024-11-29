@@ -67,7 +67,8 @@ graph TD;
 ## Scénarimage / Simulation
 
 ### Simulation
-![plancheVisuelle](medias/assets/images/Simulation_02.jpg)
+![plancheVisuelle](medias/assets/images/simulation_top.png)
+![plancheVisuelle](medias/assets/images/simulation_devant.png)
 
 ### Scénarimage
 ![plancheVisuelle](medias/assets/images/scenarimage.jpg)
