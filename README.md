@@ -30,7 +30,7 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 ## Scénario Interactif (nouvelle version)
 
 ### Interactif
-![shéma Interactif ](medias/assets/images/shema_Interactif_new.png)
+![shéma Interactif ](medias/assets/images/shema_Interactif_nouveau.png)
 
 ## Scénario Interactif (ancienne version)
 
