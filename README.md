@@ -100,49 +100,38 @@ Donc, il aurait quelques mp4 pour les bases des visuels, ensuite les instruments
 ### Matériel
 
 #### Électronique
-- 3 [Epsum Home Cinema 2150 Wireless 3CLD Projector](https://epson.ca/Remise-%C3%A0-neuf-certifi%C3%A9e/Divertissement-%C3%A0-domicile/Home-Cinema-2150-Wireless-1080p-3LCD-Projector---Remise-%C3%A0-neuf-certifi%C3%A9e/p/V11H852020-N)
-  ![plancheVisuelle](assets/images/projecteur_epson.PNG)
-  
-- 2-6 5PX-HEX (Lumières)
+
+- 2-6 5PX-HEX (Lumières) [Documentation](https://www.adj.com/5px-hex)
   ![plancheVisuelle](medias/assets/images/5PX-HEX.jpg)
   
-- 2 Sculpture Mains
-  
-  ![plancheVisuelle](medias/assets/images/main_sculptures.jpg)
-
-- [Support pour les sculptures](https://youtu.be/exuQNdkZcog)
-  
 - Ordinateurs (1 ou 2)
-  
-- NanoKontrol 2
-  ![plancheVisuelle](medias/assets/images/nanokontrol2.jpg)
-  
+
 - Fils XLR, HDMI, USB-C, USB-A
-- 2-6 Speakers Genelec
+
+- 2-6 Speakers Genelec [Documentation](https://www.genelec.com/8040b)
   
   ![plancheVisuelle](medias/assets/images/genelec_speakers.jpg)
 
-#### Instruments
-- Akai MPK Mini Plus 37-key Keyboard
-  ![plancheVisuelle](medias/assets/images/akai_keyboard-37.png)
-  
-- EART Electric Guitar SSS Single Coil
-  ![plancheVisuelle](medias/assets/images/guitar_electrique.jpg)
-  
-- Donner Electric Drum Set
-  ![plancheVisuelle](medias/assets/images/drum_set.jpg)
-  
+#### Cubes (x3)
+
+- extrusions Aluminium (Jointure en coin)
+- Tof (5x par cube doon total de 15)
+- 3x M5Atom
+- 3x M5Atom adaptateur ethernet
+- 3x M5Stack PbHub
+- **Beaucoup de cables**
+- 3x cables ethernet
+
+#### Piédestales (x3)
 
 
 ### Logiciels
 Différents Logiciels seront utilisé pour que les projections, les instruments et les lumières intéragissents entre elles.
 
-- Touch Designer (Pour la projection et l'intéraction sur les visuels)
-- MadMapper (Pour mapper les visuels sur les sculptures)
-- After Effects (Pour les visuels de bases de l'écran)
-- QLC+ ou SoundSwitch (Pour les lumières et l'intéractivité avec celle-ci)
-- Reaper ou Max (Pour la détection d’audio des instruments, et les effets sur celle-ci)
-- Blender / Maya (Pour les bases de visuels 3D, objets, etc.)
+- TouchDesigner (Pour la projection et l'intéraction sur les visuels)
+- QLC+ (Pour les lumières et l'intéractivité avec celle-ci)
+- Blender / Maya (Pour modéliser les cubes)
+- Ableton live 12 (son)
 
 Le réseau de communication serait majoritairement midi car celle-ci est faite pour la détection d’audio d’instruments musicales.
 
