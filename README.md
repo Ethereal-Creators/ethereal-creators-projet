@@ -39,7 +39,7 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 ![plancheVisuelle](medias/assets/images/simulation_devant.png)
 
 ### Scénarimage
-![plancheVisuelle](medias/assets/images/scenarimage.jpg)
+![plancheVisuelle](medias/assets/images/scenarimage_instrumentum_final.jpg)
 
 #### Organique
 ![plancheVisuelle](medias/assets/images/examples_01_00009.jpg)
