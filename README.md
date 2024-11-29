@@ -115,12 +115,28 @@ Donc, il aurait quelques mp4 pour les bases des visuels, ensuite les instruments
 #### Cubes (x3)
 
 - extrusions Aluminium (Jointure en coin)
+
 - Tof (5x par cube doon total de 15)
+
+![TOF](medias/assets/images/unit_tof.png)
+
 - 3x M5Atom
+
+![M5Atom](medias/assets/images/m5atom-lite-developer-module-with-programmable-button-esp32.png)
+
 - 3x M5Atom adaptateur ethernet
+
+![adaptateur ethernet](medias/assets/images/24363_1_kwadrat.png)
+
 - 3x M5Stack PbHub
+
+![PbHub - 1](medias/assets/images/pbhub_1.png)
+![PbHub - 2](medias/assets/images/pbhub_2.png)
+
 - **Beaucoup de cables**
 - 3x cables ethernet
+
+![Ethernet](medias/assets/images/ethernet.jpg)
 
 #### Piédestales (x3)
 
