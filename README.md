@@ -32,38 +32,6 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 ### Interactif
 ![shéma Interactif ](medias/assets/images/shema_Interactif_nouveau.png)
 
-## Scénario Interactif (ancienne version)
-
-### Interactif
-```mermaid
-graph TD;
-    A{Utiliser Instruments}-->B{Guitare} & C{Piano} & D{Drum};
-    B{Guitare} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
-    E{Interaction avec Projection}-->F{Plus D'interaction?};
-    F{Besoin D'effets? De Changer le visuel?}--|Oui|-->G{Midi};
-    F{Besoin D'effets? De Changer le visuel?}--|Non|-->I{Fin de l'intéraction?};
-    G{Midi}-->H{Activation Lumiere};
-    H{Activation Lumiere}-->I{Fin de l'intéraction?};
-    I{Fin de l'intéraction?}--|Oui|-->J{Veille};
-    I{Fin de l'intéraction?}--|Non|-->A{Utiliser Instruments};
-    J{Veille}-->A{Utiliser Instruments};
-```
-### Narratif
-```mermaid
-graph TD;
-    A{Point de départ}--|Choix d'instruments|-->B{Guitare} & C{Piano} & D{Drum};
-    B{Guitare} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
-    E{Interaction avec Projection}-->F{La personne veut-elle plus?};
-    F{La personne veut-elle plus? visuel ou effets}--|Oui|-->G{Utilise le clavier midi};
-    F{La personne veut-elle plus? visuel ou effets}--|Non|-->I{la personne est satisfaite};
-    G{Utilise le clavier midi}-->H{La personne ajoute des effets/change visuel};
-    H{La personne ajoute des effets/change visuel}--> I{la personne est satisfaite} & J{la personne est impressionner} & K{La personne expérimente plus} & L{La personne quitte};
-```
-
-
-### À refaire
-
-
 ## Scénarimage / Simulation
 
 ### Simulation
