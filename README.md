@@ -33,6 +33,9 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 
 [Inspiration projection](https://youtu.be/ATLhkFcQZN0)
 
+## Moodboard piédestal
+![Image projection Tutoriel](medias/assets/images/piedestal_ref.png)
+
 ## Scénario Interactif (nouvelle version)
 
 ### Interactif
