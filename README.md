@@ -55,7 +55,7 @@ https://youtu.be/ATLhkFcQZN0
 
 ## Synoptique
 
-![plancheVisuelle](assets/images/InstrumentumSynoptique.jpg)
+![plancheVisuelle](medias/images/InstrumentumSypnotique.png)
 
 ## Plantation
 ![plancheVisuelle](assets/images/Plantation.jpg)
