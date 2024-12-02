@@ -65,7 +65,7 @@ https://youtu.be/ATLhkFcQZN0
 ![plancheVisuelle](medias/images/InstrumentumSypnotique.png)
 
 ## Plantation
-
+![Plantation top](medias/assets/images/grand_studio_cad_instrumentum.png)
 ![Plantation top](medias/assets/images/simulation_top.png)
 ![Plantation devant](medias/assets/images/simulation_devant.png)
 
