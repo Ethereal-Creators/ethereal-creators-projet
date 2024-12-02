@@ -3,9 +3,9 @@
 ## Idée
 
 ### Concept
-Créer un monde abstrait combinant la musique, la technologie et la nature ayant pour but de permettre aux gens de s’amuser, de faire de la musique en groupe et les sensibiliser envers la nature. Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi contrôlé par les cubes.
-
-Pour chaque forme, chaque faces auraient un TOF qui contrôlerait quelque chose. Par exemple, un TOF pourrait contrôler le volume, un autre pourrait contrôler un effet phaser, etc.
+Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de s'amuser, de faire de la musique en groupe.
+Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. 
+Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. 
 
 
 ![Plan_Projet_Final](https://github.com/user-attachments/assets/27dec7d9-5cf1-4566-b7f0-308f94037dca)
@@ -31,6 +31,9 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 ![Image projection Tutoriel](medias/assets/images/img_tutoriel_01.png)
 
 [Inspiration projection](https://youtu.be/ATLhkFcQZN0)
+
+## Moodboard piédestal
+![Image projection Tutoriel](medias/assets/images/piedestal_ref.png)
 
 ## Scénario Interactif (nouvelle version)
 
@@ -64,7 +67,7 @@ https://youtu.be/ATLhkFcQZN0
 ![plancheVisuelle](medias/images/InstrumentumSypnotique.png)
 
 ## Plantation
-
+![Plantation top](medias/assets/images/grand_studio_cad_instrumentum.png)
 ![Plantation top](medias/assets/images/simulation_top.png)
 ![Plantation devant](medias/assets/images/simulation_devant.png)
 
@@ -133,6 +136,7 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 ![Ethernet](medias/assets/images/ethernet.jpg)
 
 #### Pour les stands et cubes
+  ![micro](medias/assets/images/micro.webp)
 
 - [Extrusion d'aluminium 2020mm](https://www.amazon.ca/gp/product/B09WHCKS3P/?th=1)
 
