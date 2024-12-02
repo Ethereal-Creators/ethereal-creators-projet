@@ -137,6 +137,7 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 ![Ethernet](medias/assets/images/ethernet.jpg)
 
 #### Pour les stands et cubes
+  ![micro](medias/assets/images/micro.webp)
 
 - [Extrusion d'aluminium 2020mm](https://www.amazon.ca/gp/product/B09WHCKS3P/?th=1)
 
