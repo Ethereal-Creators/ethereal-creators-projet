@@ -35,8 +35,9 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 ## Scénarimage / Simulation
 
 ### Simulation
-![plancheVisuelle](medias/assets/images/simulation_top.png)
-![plancheVisuelle](medias/assets/images/simulation_devant.png)
+
+![Simulatin 3D](medias/assets/images/simulation_back.jpg)
+![Simulatin 3D](medias/assets/images/simulation_side.jpg)
 
 ### Scénarimage
 ![plancheVisuelle](medias/assets/images/scenarimage_instrumentum_final.jpg)
@@ -58,7 +59,9 @@ https://youtu.be/ATLhkFcQZN0
 ![plancheVisuelle](medias/images/InstrumentumSypnotique.png)
 
 ## Plantation
-![plancheVisuelle](assets/images/Plantation.jpg)
+
+![Plantation top](medias/assets/images/simulation_top.png)
+![Plantation devant](medias/assets/images/simulation_devant.png)
 
 ## Technologies
 
