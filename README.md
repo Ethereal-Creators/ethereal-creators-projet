@@ -77,7 +77,25 @@ Donc, il aurait quelques fichiers mp4 pour les bases des visuels, ensuite les in
   
 - Ordinateurs (1 ou 2)
 
-- Fils XLR, HDMI, USB-C, USB-A
+- Fils XLR
+
+  ![XLR Cable](medias/assets/images/xlr_cable.png)
+  
+- Fils HDMI 
+
+  ![HDMI_Cable_image](medias/assets/images/hdmi_cable.jpg)
+
+- [HDMI Extender](https://www.amazon.ca/Extender-Ethernet-Monitor-Automatic-Functions/dp/B0CLLVQ6BV?th=1)
+
+  ![HDMI Extender Image](medias/assets/images/hdmi_extender.jpg)
+
+- Fils USB-C
+
+  ![USB-C CABLE](medias/assets/images/usb-c_cable.jpg)
+  
+- Fils USB-A
+
+  ![USB-A CABLE](medias/assets/images/usb-a_cable.jpg)
 
 - 2-6 Speakers Genelec [Documentation](https://www.genelec.com/8040b)
   
