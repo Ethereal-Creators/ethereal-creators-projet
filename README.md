@@ -29,6 +29,8 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 
 ## Références artistique
 
+![Image projection Tutoriel](medias/assets/images/img_tutoriel_01.png)
+
 [Inspiration projection](https://youtu.be/ATLhkFcQZN0)
 
 ## Scénario Interactif (nouvelle version)
@@ -131,7 +133,15 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 
 ![Ethernet](medias/assets/images/ethernet.jpg)
 
-#### Piédestales (x3)
+#### Pour les stands et cubes
+
+- [Extrusion d'aluminium 2020mm](https://www.amazon.ca/gp/product/B09WHCKS3P/?th=1)
+
+  ![Extrusion Image](medias/assets/images/extrusion_aluminium.png)
+  
+- Équerres d'angles à 3 voies
+
+  ![Equerre_image](medias/assets/images/jointure.png)
 
 
 ### Logiciels
