@@ -3,7 +3,11 @@
 ## Idée
 
 ### Concept
-Créer un monde abstrait combinant la musique, la technologie et la nature ayant pour but de permettre aux gens de s'amuser, de faire de la musique en groupe et les sensibiliser envers la nature. Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. Pour chaque forme,  chaque faces auraient un TOF qui controlleraient quelque chose. Par exemple, un TOF pourrait controller le volume, un autre pourrait controller un effet phaser, etc.
+Créer un monde abstrait combinant la musique, la technologie et la nature ayant pour but de permettre aux gens de s'amuser, de faire de la musique en groupe et les sensibiliser envers la nature.
+Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. 
+Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. 
+
+Pour chaque forme,  chaque faces auraient un TOF qui controlleraient quelque chose. Par exemple, un TOF pourrait controller le volume, un autre pourrait controller un effet phaser, etc.
 
 ![Plan_Projet_Final](https://github.com/user-attachments/assets/27dec7d9-5cf1-4566-b7f0-308f94037dca)
 ![cube_explication](https://github.com/user-attachments/assets/6c15836a-44ed-4d33-a0ad-c0b0501be749)
