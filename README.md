@@ -3,7 +3,7 @@
 ## Idée
 
 ### Concept
-Créer un monde abstrait combinant la musique, la technologie et la nature ayant pour but de permettre aux gens de s'amuser, de faire de la musique en groupe et les sensibiliser envers la nature.
+Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de s'amuser, de faire de la musique en groupe.
 Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. 
 Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. 
 
