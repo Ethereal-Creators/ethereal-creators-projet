@@ -178,6 +178,7 @@ Différents Logiciels seront utilisé pour que les projections, les instruments 
 - QLC+ (Pour les lumières et l'intéractivité avec celle-ci)
 - Blender / Maya (Pour modéliser les cubes)
 - Ableton live 12 (son)
+- Reaper (son)
 
 Le réseau de communication serait majoritairement midi car celle-ci est faite pour la détection d’audio d’instruments musicales.
 
