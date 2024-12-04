@@ -147,6 +147,11 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
   ![Equerre_image](medias/assets/images/jointure.png)
 
 
+  ### Cout du matériel
+
+  
+
+
 ### Logiciels
 Différents Logiciels seront utilisé pour que les projections, les instruments et les lumières intéragissents entre elles.
 
@@ -160,5 +165,6 @@ Le réseau de communication serait majoritairement midi car celle-ci est faite p
 ## Réferences: 
 
 https://village-numerique.mutek.org/fr/installations/isochrone-par-manuel-chantre
+
 
 
