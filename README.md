@@ -200,7 +200,11 @@ J'aime programmer des programmes pour effectuer des fonctions et faire des reche
 
 #### Role 
 
+Modelage des faces des cubes, creation de média, installation (projecteur, speaker, cube)
+
 #### Motivation
+
+Je veux donner un Esthetic au projet qui est propre et beaux à regarder. je trouve important que la scène soit agréable pour les utilisateurs.
 
 ### Pierre-Luc
 
