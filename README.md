@@ -150,11 +150,11 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 
 - Taraud 3/8
 
-  ![Taraud Image](medias/assets/images/tapis-danse.jpg)
+  ![Taraud Image](medias/assets/images/)
 
 - Dance Mat
 
-  ![Dance Mat](medias/assets/images/)
+  ![Dance Mat](medias/assets/images/tapis_danse.jpg)
 
 
 
