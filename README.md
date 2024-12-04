@@ -174,4 +174,40 @@ Le réseau de communication serait majoritairement midi car celle-ci est faite p
 https://village-numerique.mutek.org/fr/installations/isochrone-par-manuel-chantre
 
 
+## Équipe 
 
+#### Role 
+
+#### Motivation
+
+### Victor
+
+#### Role 
+
+#### Motivation
+
+### Maik
+
+#### Role 
+
+#### Motivation
+
+### Michael
+
+#### Role 
+
+#### Motivation
+
+### Pierre-Luc
+
+#### Role 
+
+#### Motivation
+
+### Joshua
+
+#### Role 
+Monteur Vidéo (Touch Designer, After Effects)
+
+#### Motivation
+J'adore le montage vidéo, et de pouvoir essayer d'intégrer cela dans une installation propre et unique à nous serait un défi que j'aimerais grandement relever. De plus, ce role m'aidera à raffiner mes compétences à créer de l'art abstrait et de faire de pratiquer mon utilisation de TouchDesigner.
