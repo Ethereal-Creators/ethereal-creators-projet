@@ -179,6 +179,7 @@ Différents Logiciels seront utilisé pour que les projections, les instruments 
 - Blender / Maya (Pour modéliser les cubes)
 - Ableton live 12 (son)
 - Reaper (son)
+- Arduino (code)
 
 Le réseau de communication serait majoritairement midi car celle-ci est faite pour la détection d’audio d’instruments musicales.
 
