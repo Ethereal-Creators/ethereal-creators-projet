@@ -193,9 +193,9 @@ J'aime programmer des programmes pour effectuer des fonctions et faire des reche
 ### Maik
 
 #### Role 
-
+Concepteur sonore
 #### Motivation
-
+J'ai toujours aimé faire de la musique ainsi que la conception sonore puisque en plus d'être un passe-temps, cela aide a gérer mon anxiété. Si je n'étudie pas, habituellement je fait de la musique.
 ### Michael
 
 #### Role 
