@@ -182,9 +182,13 @@ https://village-numerique.mutek.org/fr/installations/isochrone-par-manuel-chantr
 
 ### Victor
 
-#### Role 
+#### Role
+
+Programmation : arduino + TouchDesigner
 
 #### Motivation
+
+J'aime programmer des programmes pour effectuer des fonctions et faire des recherches pour y arriver. C'est très satisfaisant quand c'est complété. Réussir à faire une installation et programme fonctionnel.
 
 ### Maik
 
