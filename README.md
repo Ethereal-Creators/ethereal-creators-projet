@@ -152,6 +152,10 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 
   ![Taraud Image]()
 
+- Dance Mat
+
+  ![Dance Mat]()
+
 
 
   ### Cout du matériel
