@@ -152,7 +152,7 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 
   ![Taraud Image](medias/assets/images/)
 
-- Dance Mat
+- Tapis de dance
 
   ![Dance Mat](medias/assets/images/tapis_danse.jpg)
 
