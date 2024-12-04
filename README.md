@@ -10,6 +10,7 @@ Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera 
 
 ![Plan_Projet_Final](https://github.com/user-attachments/assets/27dec7d9-5cf1-4566-b7f0-308f94037dca)
 ![cube_explication](https://github.com/user-attachments/assets/6c15836a-44ed-4d33-a0ad-c0b0501be749)
+![cube_informations_mesures](https://github.com/user-attachments/assets/bb0c7f7e-b56d-41c7-a58a-4037a038de86)
 
 ## Références et inspirations
 
