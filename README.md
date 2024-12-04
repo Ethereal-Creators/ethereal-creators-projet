@@ -148,6 +148,11 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
   ![Equerre_image](medias/assets/images/jointure.png)
 
 
+- Taraud 3/8
+
+  ![Taraud Image]()
+
+
 
   ### Cout du matériel
 | **Description**             | **Catégorie** | **Quantité** | **Coût unitaire** | **Montant** | **Liens** |
