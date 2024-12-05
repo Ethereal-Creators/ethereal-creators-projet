@@ -1,15 +1,16 @@
 # Instrumentum
-
+[SlideShow](https://docs.google.com/presentation/d/1q3NwvzlKlE0zQZpyrD8DxW99CKK96IRwOWyMbUH8yd4/edit#slide=id.g31b8165a46e_0_252)
 ## Idée
 
 ### Concept
 Créer un monde abstrait combinant la musique et la technologie ayant pour but de permettre aux gens de s'amuser, de faire de la musique en groupe.
-Il y aurait 5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. 
+Il y aurait 3-5 piédestaux dont un cube par piédestals et chaque cubes produiraient des sons de manière indépendante, permettant à plusieurs personnes de jouer ensemble. 
 Il y aurait une projection sur le mur faisant face aux 5 cubes et celle-ci sera aussi controllé par les cubes. 
 
 
 ![Plan_Projet_Final](https://github.com/user-attachments/assets/27dec7d9-5cf1-4566-b7f0-308f94037dca)
 ![cube_explication](https://github.com/user-attachments/assets/6c15836a-44ed-4d33-a0ad-c0b0501be749)
+![cube_informations_mesures](https://github.com/user-attachments/assets/bb0c7f7e-b56d-41c7-a58a-4037a038de86)
 
 ## Références et inspirations
 
@@ -35,7 +36,7 @@ L’ambiance sonore du projet est composée d’une boucle de basses et de nappe
 ## Moodboard piédestal
 ![Image projection Tutoriel](medias/assets/images/piedestal_ref.png)
 
-## Scénario Interactif (nouvelle version)
+## Scénario Interactif
 
 ### Interactif
 ![shéma Interactif ](medias/assets/images/shema_Interactif_nouveau.png)
@@ -147,7 +148,25 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
   ![Equerre_image](medias/assets/images/jointure.png)
 
 
+- Taraud 3/8
+
+  ![Taraud Image](medias/assets/images/taraud.png)
+
+- Tapis de dance
+
+  ![Dance Mat](medias/assets/images/tapis_danse.jpg)
+
+
+
   ### Cout du matériel
+| **Description**             | **Catégorie** | **Quantité** | **Coût unitaire** | **Montant** | **Liens** |
+|-----------------------------|---------------|--------------|-------------------|-------------|----------|
+| Pédestales                  | Équipement    | 5            |                   | 0 $         |          |
+| Extrusions 1000mm           | Équipement    | 20           | 11 $              | 220 $       | [Lien](https://www.amazon.ca/-/fr/gp/product/B09Y1PL5GH/ref=ox_sc_act_title_1?smid=A2DGLVBBDAJTOF&th=1) |
+| Équerres d'angles           | Équipement    | 3            | 24 $              | 72 $        | [Lien](https://www.amazon.ca/gp/product/B09WHCKS3P/?th=1) |
+| ERYONE PLA Glow in the dark | Décoration    | 2            | 34 $              | 68 $        | [Lien](https://www.amazon.ca/dp/B0BBDYSQ14/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B0BBDYSQ14&pd_rd_w=UDLm7&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=353WR54VF0VPZWZRZZ0N&pd_rd_wg=yV00x&pd_rd_r=a9b2b8bc-abaa-4031-8e5e-0d3206bfeb2d&s=office&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw) |
+| TRONXY PLA Glow in the dark | Décoration    | 1            | 31 $              | 31 $        | [Lien](https://www.amazon.ca/-/fr/Filament-matériau-imprimante-changement-arc-en-ciel/dp/B0BPC7QRYW/ref=pd_sbs_d_sccl_4_3/141-0444918-1252260?pd_rd_w=5DyCj&content-id=amzn1.sym.548e628b-1a29-4955-b8b2-cd4ff764ebc9&pf_rd_p=548e628b-1a29-4955-b8b2-cd4ff764ebc9&pf_rd_r=Y3DAQ99H4779YZVVCDCA&pd_rd_wg=zv7Fz&pd_rd_r=9db453d8-71a3-4b77-81d3-b1b273256104&pd_rd_i=B0BPC7QRYW&th=1) |
+| Taraud 3/8                  | Équipement    | 3            | 20$               | 60 $        | [Lien](https://www.amazon.ca/Accusize-Industrial-longueur-cannelures-am%C3%A9ricaine/dp/B01AVDYKE2/ref=sr_1_2_sspa?crid=3FL2ZXXB5LOP5&dib=eyJ2IjoiMSJ9.Ydbn7fpkNjKnO_-tvq_uHWZOhn2aeVNsxcB_5ReiRP9ghS6Ro-ku7zq6hGSwHIDOv61bSTq33HckeRQD541nQHD8ngR9mzHNaKMDccHE6V2nxkt-9qKrf1o9gI2iFcjAbVtmhmD9RE4kKyOuAIp-LAnl-NUC_QvAPRxWJ9a_Jlp0E2ndOZvQjHgyFEJAnOKqiX1czd1t10xOuCKbEwxQzAvTVwEfltNS7ECpioN_2KLOB_iXbS8BfAutbD2DzhaerbRm_JssAGbWhNNaq3CaK0WtVCMcbyUaMUAfirwkO18.I6_IoDguPlNgfqw50lesOdLS7xxOcTPQ8Hitm08iWMI&dib_tag=se&keywords=taraud%2B3%2F8&qid=1733338144&sprefix=taraud%2B3%2F%2Caps%2C72&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1) |
 
   
 
@@ -159,6 +178,8 @@ Différents Logiciels seront utilisé pour que les projections, les instruments 
 - QLC+ (Pour les lumières et l'intéractivité avec celle-ci)
 - Blender / Maya (Pour modéliser les cubes)
 - Ableton live 12 (son)
+- Reaper (son)
+- Arduino (code)
 
 Le réseau de communication serait majoritairement midi car celle-ci est faite pour la détection d’audio d’instruments musicales.
 
@@ -167,4 +188,48 @@ Le réseau de communication serait majoritairement midi car celle-ci est faite p
 https://village-numerique.mutek.org/fr/installations/isochrone-par-manuel-chantre
 
 
+## Équipe 
 
+#### Role 
+
+#### Motivation
+
+### Victor
+
+#### Role
+
+Programmation : arduino + TouchDesigner
+
+#### Motivation
+
+J'aime programmer des programmes pour effectuer des fonctions et faire des recherches pour y arriver. C'est très satisfaisant quand c'est complété. Réussir à faire une installation et programme fonctionnel.
+
+### Maik
+
+#### Role 
+Concepteur sonore
+#### Motivation
+J'ai toujours aimé faire de la musique ainsi que la conception sonore puisque en plus d'être un passe-temps, cela aide a gérer mon anxiété. Si je n'étudie pas, habituellement je fait de la musique.
+### Michael
+
+#### Role 
+
+Modelage des faces des cubes, creation de média, installation (projecteur, speaker, cube)
+
+#### Motivation
+
+Je veux donner un Esthetic au projet qui est propre et beaux à regarder. je trouve important que la scène soit agréable pour les utilisateurs.
+
+### Pierre-Luc
+
+#### Role 
+
+#### Motivation
+
+### Joshua
+
+#### Role 
+Monteur Vidéo (Touch Designer, After Effects)
+
+#### Motivation
+J'adore le montage vidéo, et de pouvoir essayer d'intégrer cela dans une installation propre et unique à nous serait un défi que j'aimerais grandement relever. De plus, ce role m'aidera à raffiner mes compétences à créer de l'art abstrait et de pratiquer mon utilisation de TouchDesigner.
