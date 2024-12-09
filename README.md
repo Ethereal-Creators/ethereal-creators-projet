@@ -211,7 +211,7 @@ Concepteur sonore
 #### Motivation
 J'ai toujours aimé faire de la musique ainsi que la conception sonore puisque en plus d'être un passe-temps, cela aide a gérer mon anxiété. Si je n'étudie pas, habituellement je fait de la musique.
 
-#### Étude de fesabilité
+#### Étude de faisabilité
 La composition sonore a une importance pour Instrumentum puisque le but principal de notre peojet est de pouvoir faire de la musique avec les cubes. Les defis pour cette partie est de trouver des amviances et effet sonores qui complementent bien le projet et de bien connaitre les DAW ( reaper et ableton ).  
 
 ### Michael
