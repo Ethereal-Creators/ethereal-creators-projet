@@ -212,7 +212,7 @@ Concepteur sonore
 J'ai toujours aimé faire de la musique ainsi que la conception sonore puisque en plus d'être un passe-temps, cela aide a gérer mon anxiété. Si je n'étudie pas, habituellement je fait de la musique.
 
 #### Étude de faisabilité
-La composition sonore a une importance pour Instrumentum puisque le but principal de notre projet est de pouvoir faire de la musique avec les cubes. Les défis pour cette partie est de trouver des ambiances et effet sonores qui compéementent bien le projet et de bien connaitre les DAW ( Reaper et Ableton ).  
+La composition sonore a une importance pour Instrumentum puisque le but principal de notre projet est de pouvoir faire de la musique avec les cubes. Les défis pour cette partie est de trouver des ambiances et effet sonores qui compléementent bien le projet et de bien connaitre les DAW ( Reaper et Ableton ).  
 
 ### Michael
 
@@ -234,7 +234,10 @@ Modelage des cubes + Touch Designer
 J'adore faire de la modélisation 3D, surtout si mes créations peuvent devenir réelles, c'est comme un passe-temps. De plus, il est important pour moi que TouchDesigner soit fluide et esthétique.
 
 #### Étude de faisabilité
-La modélisation est essentielle pour Instrumentum puisque ces cubes seront imprimés pour qu'on puisse ensuite les installer et les utiliser
+La modélisation est essentielle pour Instrumentum puisque ces cubes seront imprimés pour qu'on puisse ensuite les installer et s'en servir pour lorsqu'on les touches, ils émettent du son. Les défis c'est de trouver de l'inspiration pour que les cubes soivent esthétiquement jolis. 
+
+Ensuite pour le Touch Designer, c'est important de faire un code pour que effets visuelles et sonores fonctionnent bien. Les défis pour cette partie sera de trouver un façon pour les nodes de touch designer s'intègre bien au projet.
+
 
 ### Joshua
 
