@@ -231,7 +231,7 @@ Je veux donner un Esthetic au projet qui est propre et beaux à regarder. je tro
 Modelage des cubes + Touch Designer
 
 #### Motivation
-J'adore faire de la modélisation 3D surtout si mes créations peuvent devenir réelles, c'est comme un passe temps. De plus, l'importance que le TouchDesigner soit fluide et beau est important pour moi
+J'adore faire de la modélisation 3D, surtout si mes créations peuvent devenir réelles, c'est comme un passe-temps. De plus, il est important pour moi que TouchDesigner soit fluide et esthétique.
 
 ### Joshua
 
