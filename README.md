@@ -224,6 +224,9 @@ Modelage des faces des cubes, creation de média, installation (projecteur, spea
 
 Je veux donner un Esthetic au projet qui est propre et beaux à regarder. je trouve important que la scène soit agréable pour les utilisateurs.
 
+#### Étude de faisabilité
+L'installation est au cœur du projet Instrumentum. Elle se compose de 4 enceintes Genelec placées dans les quatre coins du plafond, de 2 lumières au plafond orientées vers les piliers pour les éclairer, d'un projecteur (PowerLite 109W) situé à 7,1 m du mur de projection et à 0,5 m du plafond. Les piliers seront des supports pour micros, sur lesquels nous pourrons fixer les cubes à l'aide de tarauds. Le tout sera installé sur un tapis de danse pour protéger le sol.
+
 ### Pierre-Luc
 
 #### Role 
