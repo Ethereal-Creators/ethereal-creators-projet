@@ -243,12 +243,12 @@ Nécessite une connaissance de C++ dans Arduino, des connaissances sur TouchDesi
 
 Commencer des tests le plus tôt possible. Dans la 1re et 2e semaine, avoir au moins une installation pour un cube fonctionnel et qui envoie de l'information. Dans la 3e semaine ou plus tôt si possible, faire marcher la communication entre tous les M5Atom.
 
-Risque : 
+##### Risque : 
 -  Communication non fonctionnelle
 -  Programme C++ n'envoie pas l'information correcte
 -  Overload du M5Atom
 
-Solution : 
+##### Solution : 
 -  Multiple test avec un protory d'un seul cube.
 -  Test avec seulement le M5Atom et Oscin dans TouchDesigner
 -  Faire attention que le M5Atom ne devienne jamais trop chaud ou ne veut pas "reset"
@@ -263,11 +263,11 @@ J'ai toujours aimé faire de la musique ainsi que la conception sonore puisque e
 #### Étude de faisabilité
 La composition sonore a une importance pour Instrumentum puisque le but principal de notre projet est de pouvoir faire de la musique avec les cubes. Les défis pour cette partie est de trouver des ambiances et effet sonores qui compléementent bien le projet et de bien connaitre les DAW ( Reaper et Ableton ).  
 
-Risque :
+##### Risque :
 - Le son coupe ou glitch en sortant des speakers.
   
 
-Solutions :
+##### Solutions :
 - S'assurer que les sons ont des limiter et que le mixing est bien fait. Controller le sons dans un autre ordinateur
   
 
@@ -300,9 +300,11 @@ Ensuite pour le Touch Designer, c'est important de faire un code pour que effets
 
 ##### Risques
 - Les cubes ne sont pas de la bonne largeur
+- Les configurations dans Touch Designer pourraient ne pas fonctionner correctement sur d'autres configurations matérielles.
 
 ##### Solutions
 - Réglage des paramètres d'impressions, vérification des dimensions dans le fichier source des cubes.
+- Test du projet sur des configurations variées. 
 
 ### Joshua
 
@@ -314,4 +316,8 @@ J'adore le montage vidéo, et de pouvoir essayer d'intégrer cela dans une insta
 
 #### Étude de faisabilité 
 Le visuel est très important au projet. En effet, c’est un des élément avec lequel l’utilisateur pourra interagir. De plus, il est important de créer un visuel intéressant et unique tout en considérant les différentes réactions que celle-ci peut avoir. De plus, le visuel peut être basé sur des objets 3D, ou vidéo créé sur After Effects.
+
+##### Risques
+
+##### Solutions
 
