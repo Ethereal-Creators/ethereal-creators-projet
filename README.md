@@ -284,6 +284,16 @@ Je veux donner un Esthetic au projet qui est propre et beaux à regarder. je tro
 #### Étude de faisabilité
 L'installation est au cœur du projet Instrumentum. Elle se compose de 4 enceintes Genelec placées dans les quatre coins du plafond, de 2 lumières au plafond orientées vers les piliers pour les éclairer, d'un projecteur (PowerLite 109W) situé à 7,1 m du mur de projection et à 0,5 m du plafond. Les piliers seront des supports pour micros, sur lesquels nous pourrons fixer les cubes à l'aide de tarauds. Le tout sera installé sur un tapis de danse pour protéger le sol.
 
+#### Risque
+1- équipement  non fonctionnel
+2- soulier dans le silo
+3- projection non centrer (problem de projection)
+
+#### Solution
+1- Il faut avoir des spares d'équipement
+2- il nous faudra un tapis de danse pour le silo
+3- il faudra faire des tests de projection
+
 ### Pierre-Luc
 
 #### Role 
