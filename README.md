@@ -265,3 +265,7 @@ Monteur Vidéo (Touch Designer, After Effects)
 
 #### Motivation
 J'adore le montage vidéo, et de pouvoir essayer d'intégrer cela dans une installation propre et unique à nous serait un défi que j'aimerais grandement relever. De plus, ce role m'aidera à raffiner mes compétences à créer de l'art abstrait et de pratiquer mon utilisation de TouchDesigner.
+
+#### Étude de faisabilité 
+Le visuel est très important au projet. En effet, c’est un des élément avec lequel l’utilisateur pourra interagir. De plus, il est important de créer un visuel intéressant et unique tout en considérant les différentes réactions que celle-ci peut avoir. De plus, le visuel peut être basé sur des objets 3D, ou vidéo créé sur After Effects.
+
