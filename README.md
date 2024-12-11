@@ -329,5 +329,12 @@ Le visuel est très important au projet. En effet, c’est un des élément avec
 
 ##### Risques
 
+- Le "load" de TouchDesigner est trop immense et affecte la performance du PC
+- Le visuel diverge trop de l'esthétique du projet
+- Le bases de visuelles crée dans After Effects / Blender ne s'intègre pas bien dans les visuelles
+  
 ##### Solutions
+- Utilisé un autre ordinateur pour TouchDesigner et faire plusieurs tests en regardant l'état du PC.
+- Faire différents tests de plusieurs minutes sur l'intéractivité du visuel (l'audio intéragit avec le visuel, les différentes réactions du visuel, etc.), ajuster au besoin et faire des recherches.
+- Faire des recherches sur différents types d'intégration dans TouchDesigner (effets, etc.), tester les différents visuelles, sinon dernière option les enlever complètement et tout faire dans TouchDesigner
 
