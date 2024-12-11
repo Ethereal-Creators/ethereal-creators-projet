@@ -298,6 +298,11 @@ La modélisation est essentielle pour Instrumentum puisque ces cubes seront impr
 
 Ensuite pour le Touch Designer, c'est important de faire un code pour que effets visuelles et sonores fonctionnent bien. Les défis pour cette partie sera de trouver un façon pour les nodes de touch designer s'intègre bien au projet.
 
+##### Risques
+- Les cubes ne sont pas de la bonne largeur
+
+##### Solutions
+- Réglage des paramètres d'impressions, vérification des dimensions dans le fichier source des cubes.
 
 ### Joshua
 
