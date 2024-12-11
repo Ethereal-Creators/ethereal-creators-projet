@@ -189,11 +189,7 @@ Le réseau de communication serait majoritairement midi car celle-ci est faite p
 https://village-numerique.mutek.org/fr/installations/isochrone-par-manuel-chantre
 
 
-## Équipe 
-
-#### Role 
-
-#### Motivation
+## Équipe
 
 ### Victor
 
