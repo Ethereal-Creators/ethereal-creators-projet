@@ -204,6 +204,22 @@ Programmation : arduino + TouchDesigner
 
 J'aime programmer des programmes pour effectuer des fonctions et faire des recherches pour y arriver. C'est très satisfaisant quand c'est complété. Réussir à faire une installation et programme fonctionnel.
 
+#### Étude de faisabilité
+Communication entre les M5Atom avec un code Arduino à TouchDesigner. Nécessite un programme Arduino, TouchDesigner et plugData pour recevoir plusieurs informations en même temps. Nécessite l'achat de 5 tofs par cube plus 3 PbHub pour les connecter au M5Atom (fournis en partie par l'école, peut-être acheté si la quantité optimale n'est pas atteinte.).
+Nécessite une connaissance de C++ dans Arduino, des connaissances sur TouchDesigner plus PlugData pour la communication.
+
+Commencer des tests le plus tôt possible. Dans la 1re et 2e semaine, avoir au moins une installation pour un cube fonctionnel et qui envoie de l'information. Dans la 3e semaine ou plus tôt si possible, faire marcher la communication entre tous les M5Atom.
+
+Risque : 
+-  Communication non fonctionnelle
+-  Programme C++ n'envoie pas l'information correcte
+-  Overload du M5Atom
+
+Solution : 
+-  Multiple test avec un protory d'un seul cube.
+-  Test avec seulement le M5Atom et Oscin dans TouchDesigner
+-  Faire attention que le M5Atom ne devienne jamais trop chaud ou ne veut pas "reset"
+
 ### Maik
 
 #### Role 
