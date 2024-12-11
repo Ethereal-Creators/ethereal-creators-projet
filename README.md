@@ -230,6 +230,14 @@ J'ai toujours aimé faire de la musique ainsi que la conception sonore puisque e
 #### Étude de faisabilité
 La composition sonore a une importance pour Instrumentum puisque le but principal de notre projet est de pouvoir faire de la musique avec les cubes. Les défis pour cette partie est de trouver des ambiances et effet sonores qui compléementent bien le projet et de bien connaitre les DAW ( Reaper et Ableton ).  
 
+Risque :
+- Le son coupe ou glitch en sortant des speakers.
+  
+
+Solutions :
+- S'assurer que les sons ont des limiter et que le mixing est bien fait. Controller le sons dans un autre ordinateur
+  
+
 ### Michael
 
 #### Role 
