@@ -115,7 +115,7 @@ Donc, il aurait quelques fichiers **MP4** pour les bases des visuels, ensuite le
 
 - extrusions Aluminium (Jointure en coin)
 
-- Tof (5x par cube doon total de 15)
+- Tof (5x par cube pour un total de 15)
 
 ![TOF](medias/assets/images/unit_tof.png)
 
