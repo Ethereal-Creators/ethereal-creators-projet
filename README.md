@@ -250,7 +250,7 @@ L'installation est au cœur du projet Instrumentum. Elle se compose de 4 enceint
 
 #### Risque
 - équipement  non fonctionnel
-- soulier dans le silo
+- soulier dans le cyclo
 - projection non centrer (problem de projection)
 
 #### Solution
